@@ -40,7 +40,7 @@ with open('flowers.csv') as infile:
 
 model.load_weights('models/finetune1.h5')
 
-api = twitter.Api(consumer_key='SEVKJYgD53A9c3UPWk4xlYHC1', consumer_secret='0nRMd1hDezte07LBo1nFwusYIZ3YNk77kXnyY6OY7RBe7sKoWU', access_token_key='862023803580370944-ZHDLhUunDlmMznoCCVTny6EswAJhmIX', access_token_secret='tUkmD77V9ioQbmM0qADJtZD2R486Uy1KFHvqm8zN3XrbO')
+api = twitter.Api(consumer_key='', consumer_secret='', access_token_key='862023803580370944-ZHDLhUunDlmMznoCCVTny6EswAJhmIX', access_token_secret='tUkmD77V9ioQbmM0qADJtZD2R486Uy1KFHvqm8zN3XrbO')
 
 events = api.GetUserStream()
 
